@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<manifest>
+  <remote name="gst" fetch="ssh://git@gitlab.freedesktop.org" />
+  <default remote="gst" revision="master"/>
+  <project path="gstreamer" name="gstreamer/gstreamer"/>
+  <project path="gst-plugins-base" name="gstreamer/gst-plugins-base"/>
+  <project path="gst-plugins-good" name="gstreamer/gst-plugins-good"/>
+  <project path="gst-libav" name="gstreamer/gst-libav"/>
+  <project path="gst-plugins-bad" name="gstreamer/gst-plugins-bad"/>
+  <project path="gst-plugins-ugly" name="gstreamer/gst-plugins-ugly"/>
+  <project path="gstreamer-rs-sys" name="gstreamer/gstreamer-rs-sys"/>
+  <project path="gstreamer-rs" name="gstreamer/gstreamer-rs"/>
+  <project path="gst-plugins-rs" name="gstreamer/gst-plugins-rs"/>
+  <project path="gst-examples" name="gstreamer/gst-examples"/>
+  <project path="gst-devtools" name="gstreamer/gst-devtools"/>
+</manifest>
